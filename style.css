@@ -102,8 +102,12 @@
   margin-left: 12px;
 }
 
+.work {
+  display: grid;
+}
+
 .container {
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -235,15 +239,16 @@ li.item3 {
   width: 295px;
 }
 
-.container3 {
+ul.container3 {
   display: flex;
   flex-direction: row;
   width: 327px;
   align-items: center;
   font-family: sans-serif;
   color: white;
-  margin-left: 60px;
+  margin-left: 20px;
   gap: 10px;
+  list-style-type: none;
 }
 
 .item4 {
