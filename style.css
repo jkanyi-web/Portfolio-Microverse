@@ -451,16 +451,6 @@ ul.points {
   font-size: 15px;
 }
 
-.contact-form textarea {
-  height: 90px;
-  width: 300px;
-  padding: 10px 10px 5px 10px;
-  border: none;
-  background: #fbf8f7;
-  margin-top: 24px;
-  margin-left: 24px;
-}
-
 .submit-container {
   display: grid;
   justify-content: center;
