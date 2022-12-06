@@ -200,7 +200,6 @@ li.item3 {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin-left: -180px;
   margin-top: 15px;
   font-family: sans-serif;
   background-color: #ff6b00;
@@ -418,4 +417,90 @@ ul.points {
   align-items: center;
   margin-top: -375px;
   height: 650px;
+}
+
+.footer {
+  width: 375px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.touch {
+  text-align: center;
+  font-size: 30px;
+  width: 327px;
+  margin-left: 24px;
+  height: 216px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding: 5px 5px 5px 5px;
+}
+
+.contact-form-text {
+  height: 32px;
+  width: 300px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  font-family: sans-serif;
+  margin-left: 24px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.contact-form textarea {
+  height: 90px;
+  width: 300px;
+  padding: 10px 10px 5px 10px;
+  border: none;
+  background: #fbf8f7;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.submit-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.link-styler {
+  background: #ff6b00;
+  border: none;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.25s;
+}
+
+.link-styler:hover {
+  background: var(--orange-color-click);
+  border: 2px solid black;
+  color: var(--orange-color);
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.line {
+  margin-top: 80px;
+}
+
+.logo1 {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  position: relative;
+  right: 35px;
+  width: 190px;
+  margin-left: 75px;
+}
+
+.line2 {
+  margin-left: 110px;
 }
