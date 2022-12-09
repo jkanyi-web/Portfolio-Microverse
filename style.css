@@ -37,11 +37,16 @@
 }
 
 .section1 {
+  left: 0;
   background-color: #1c1a19;
   width: 375px;
-  margin-top: -30px;
-  margin-left: -8px;
+  margin-top: -50px;
   height: auto;
+}
+
+.body1 {
+  width: 100%;
+  display: inline;
 }
 
 .im {
@@ -65,7 +70,7 @@
 }
 
 .profession {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -76,14 +81,14 @@
 }
 
 .services {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 14px;
   color: white;
   position: relative;
   bottom: 15px;
   font-weight: 200;
-  width: 290px;
+  width: 270px;
   margin-left: 20px;
   margin-top: -45px;
 }
@@ -232,6 +237,17 @@ li.item3 {
   margin-left: 24px;
 }
 
+.hovee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 386px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
 .Data {
   font-size: 20px;
   line-height: 44px;
@@ -298,7 +314,6 @@ ul.container3 {
   width: 327px;
   align-items: center;
   color: white;
-  margin-left: 24px;
 }
 
 .button1 {
@@ -396,6 +411,12 @@ ul.container3 {
 }
 
 .lang {
+  font-family: inherit;
+  font-size: 20px;
+  color: white;
+}
+
+.lango {
   font-family: inherit;
   font-size: 20px;
   color: white;
@@ -575,18 +596,23 @@ ul.points {
     display: none;
   }
 
+  .body1 {
+    width: 100%;
+  }
+
   .nam {
     display: flex;
     width: 200px;
   }
 
   .men {
-    margin-left: 500px;
+    margin-left: 600px;
     margin-top: 23px;
     display: flex;
     gap: 32px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    justify-content: end;
   }
 
   .mail {
@@ -604,7 +630,10 @@ ul.points {
   }
 
   .im {
-    display: flex;
+    display: grid;
+    width: 100%;
+    margin-left: 8px;
+    justify-content: end;
   }
 
   .aaa {
@@ -639,7 +668,7 @@ ul.points {
   .services {
     margin-left: -70px;
     margin-top: 500px;
-    width: 400px;
+    width: 380px;
     font-size: 14px;
   }
 
@@ -698,8 +727,13 @@ ul.points {
     margin-left: -50px;
   }
 
+  .container2:hover {
+    background-image: url(./icons/Mask\ Group.png);
+  }
+
   .container4 {
-    margin-left: -50px;
+    display: none;
+    margin-left: -1px;
   }
 
   .about-me {
@@ -749,14 +783,15 @@ ul.points {
   }
 
   .button2 {
-    margin-left: 55px;
+    margin-left: 61px;
     margin-top: 40px;
   }
 
   .imageo {
     display: flex;
-    margin-left: 465px;
+    margin-left: 472px;
     margin-top: -50px;
+    justify-content: end;
   }
 
   .linee {
@@ -834,5 +869,29 @@ ul.points {
 
   .line2 {
     display: none;
+  }
+
+  .container2:hover .hovee {
+    display: none;
+  }
+
+  .container2:hover .container4 {
+    display: flex;
+    margin-top: 335px;
+  }
+
+  ul.points {
+    align-items: flex-start;
+    margin-left: -140px;
+  }
+
+  .a55 {
+    margin-left: -55px;
+  }
+
+  .main1 {
+    width: auto;
+    justify-content: left;
+    margin-left: 0;
   }
 }
