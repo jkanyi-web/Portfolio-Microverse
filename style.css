@@ -598,6 +598,7 @@ ul.points {
 
   .body1 {
     width: 100%;
+    overflow-x: hidden;
   }
 
   .nam {
