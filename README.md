@@ -30,7 +30,7 @@
 # 📖 Portfolio setup <a name="about-project"></a>
 
 
-**Portfolio setup** includes the use the of Linters, Git, GitHub, Figma and Visual Studio Code. In this project the i build the "My work" and "About me" part of the personal portfolio. This portfolio is according to the mobile first approach.
+**Portfolio setup** includes the use the of Linters, Git, GitHub, Figma and Visual Studio Code. In this project i build the complete portfolio. This portfolio is according to the mobile first approach and i completed the desktop version of portfolio after completing the mobile version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
