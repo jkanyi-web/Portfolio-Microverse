@@ -2,7 +2,7 @@
   width: 375px;
   height: 70px;
   background-color: #3c3a39;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
 }
@@ -27,9 +27,67 @@
 
 .menu {
   position: absolute;
-  top: 55px;
-  left: 330px;
-  margin-top: -30px;
+  left: 280px;
+  border: none;
+  margin-top: -5px;
+  background-color: #3c3a39;
+}
+
+.nav-bar-burger-cancel {
+  display: none;
+}
+
+.nam.active {
+  display: none;
+}
+
+.menu.active .nav-bar-burger-icon {
+  display: none;
+}
+
+.menu.active .nav-bar-burger-cancel {
+  display: block;
+}
+
+.mobile-menu-screen {
+  visibility: none;
+  width: 0;
+  height: 0;
+  transform: translate(100vw, 0);
+  transition: 0.5s;
+}
+
+.mobile-menu-screen.active {
+  visibility: visible;
+  position: fixed;
+  transform: translate(0, 10vh);
+  background: #3c3a39;
+  width: 375px;
+  height: 100vh;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.mobile-menu-screen-list {
+  padding-top: 80px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mobile-menu-screen-list > * {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border-bottom: 1px solid #fff5e1;
+  width: 290px;
+  padding: 10px;
+}
+
+.mobile-menu-screen-list > li > a {
+  text-decoration: none;
+  color: #fff5e1;
 }
 
 .men {
@@ -45,6 +103,7 @@
 }
 
 .body1 {
+  overflow-x: hidden;
   width: 100%;
   display: inline;
 }
@@ -75,9 +134,9 @@
   font-weight: 400;
   font-size: 18px;
   color: white;
-  position: relative;
   bottom: 35px;
   margin-left: 20px;
+  margin-top: -45px;
 }
 
 .services {
@@ -85,22 +144,20 @@
   font-style: normal;
   font-size: 14px;
   color: white;
-  position: relative;
   bottom: 15px;
   font-weight: 200;
   width: 270px;
   margin-left: 20px;
-  margin-top: -45px;
+  margin-top: -25px;
 }
 
 .logo {
   display: flex;
   list-style-type: none;
   gap: 15px;
-  position: relative;
   right: 35px;
   width: 190px;
-  margin-left: 20px;
+  margin-left: -10px;
 }
 
 .containe {
@@ -535,10 +592,9 @@ ul.points {
   display: flex;
   list-style-type: none;
   gap: 15px;
-  position: relative;
   right: 35px;
   width: 190px;
-  margin-left: 75px;
+  margin-left: 50px;
 }
 
 .line2 {
@@ -590,10 +646,6 @@ ul.points {
   .header {
     margin-top: 7px;
     margin-left: 80px;
-  }
-
-  .menu {
-    display: none;
   }
 
   .body1 {
@@ -648,7 +700,7 @@ ul.points {
   .logo {
     display: flex;
     flex-direction: column;
-    margin-top: 325px;
+    margin-top: 300px;
   }
 
   .intro {
@@ -665,7 +717,7 @@ ul.points {
   }
 
   .services {
-    margin-left: -70px;
+    margin-left: -40px;
     margin-top: 450px;
     width: 380px;
     font-size: 14px;
@@ -893,5 +945,9 @@ ul.points {
     width: auto;
     justify-content: left;
     margin-left: 0;
+  }
+
+  .menu {
+    display: none;
   }
 }
