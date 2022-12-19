@@ -56,10 +56,9 @@
 
 .mobile-menu-screen.active {
   top: 0;
-  margin-top: -250px;
   visibility: visible;
   position: fixed;
-  transform: translate(0, 51vh);
+  transform: translate(0, 60px);
   background: #3c3a39;
   width: 375px;
   height: 100vh;
