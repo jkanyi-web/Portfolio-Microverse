@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <script src="./index.js" defer></script>
     </head>
 
 
@@ -18,7 +19,17 @@
         <header class="main-header">
             <nav class="header">
                 <div class="name"><a class="nam" href="#" style="color: white; text-decoration: none;">Usama Masood</a></div>
-                <div class="menu"><i class="fas fa-bars"></i></div>
+                <button class="menu">
+                <img class ="nav-bar-burger-icon" src="./image/aaaaaa.png" alt="">
+                <img class="nav-bar-burger-cancel" src="./image/bb.png" alt="">
+                </button>
+                <div class="mobile-menu-screen">
+                    <ul class="mobile-menu-screen-list">
+                      <li><a class="mobile-menu-links" href="#portfolio">Portfolio</a></li>
+                      <li><a class="mobile-menu-links" href="#about-me">About</a></li>
+                      <li><a class="mobile-menu-links" href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
                 <div class="men">
                     <div class="port">Porfolio</div>
                     <div class="ab">About</div>
@@ -67,7 +78,7 @@
             </section>
         
 
-            <section class="work">
+            <section id="portfolio" class="work">
                 <div class="container">
                     <div class="work1"><h1>My Recent Works</h1></div>
                     <div class="vecto"><img src="./icons/Vector.png" alt=""></div>
@@ -175,7 +186,7 @@
             </section>
 
 
-            <section class="about-me">
+            <section id="about-me" class="about-me">
                 <div class="container5">
                     <div class="containo5">
                         <div class="about"><h1>About me</h1></div>
