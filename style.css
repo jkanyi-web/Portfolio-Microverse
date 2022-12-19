@@ -2,7 +2,7 @@
   width: 375px;
   height: 70px;
   background-color: #3c3a39;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
 }
@@ -26,12 +26,11 @@
 }
 
 .menu {
-  background-color: #3c3a39;
   position: absolute;
-  top: 45px;
-  left: 300px;
-  margin-top: -30px;
+  left: 280px;
   border: none;
+  margin-top: -5px;
+  background-color: #3c3a39;
 }
 
 .nav-bar-burger-cancel {
@@ -135,9 +134,9 @@
   font-weight: 400;
   font-size: 18px;
   color: white;
-  position: relative;
   bottom: 35px;
   margin-left: 20px;
+  margin-top: -45px;
 }
 
 .services {
@@ -145,22 +144,20 @@
   font-style: normal;
   font-size: 14px;
   color: white;
-  position: relative;
   bottom: 15px;
   font-weight: 200;
   width: 270px;
   margin-left: 20px;
-  margin-top: -45px;
+  margin-top: -25px;
 }
 
 .logo {
   display: flex;
   list-style-type: none;
   gap: 15px;
-  position: relative;
   right: 35px;
   width: 190px;
-  margin-left: 20px;
+  margin-left: -10px;
 }
 
 .containe {
@@ -595,10 +592,9 @@ ul.points {
   display: flex;
   list-style-type: none;
   gap: 15px;
-  position: relative;
   right: 35px;
   width: 190px;
-  margin-left: 75px;
+  margin-left: 50px;
 }
 
 .line2 {
@@ -704,7 +700,7 @@ ul.points {
   .logo {
     display: flex;
     flex-direction: column;
-    margin-top: 325px;
+    margin-top: 300px;
   }
 
   .intro {
@@ -721,7 +717,7 @@ ul.points {
   }
 
   .services {
-    margin-left: -70px;
+    margin-left: -40px;
     margin-top: 450px;
     width: 380px;
     font-size: 14px;
