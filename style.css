@@ -38,6 +38,10 @@
   display: none;
 }
 
+.nam.active {
+  display: none;
+}
+
 .menu.active .nav-bar-burger-icon {
   display: none;
 }
@@ -55,14 +59,14 @@
 }
 
 .mobile-menu-screen.active {
-  top: 0;
   visibility: visible;
   position: fixed;
-  transform: translate(0, 60px);
+  transform: translate(0, 10vh);
   background: #3c3a39;
   width: 375px;
   height: 100vh;
   z-index: 10;
+  overflow-y: auto;
 }
 
 .mobile-menu-screen-list {
@@ -100,6 +104,7 @@
 }
 
 .body1 {
+  overflow-x: hidden;
   width: 100%;
   display: inline;
 }
